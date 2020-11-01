@@ -1,9 +1,243 @@
+html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
+	vertical-align: baseline;
+	font-family: inherit;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+	
+	}
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+	}
+body {
+	background: white;
+	line-height: 1;
+	color: black;
+	}
+ol, ul {
+	list-style: none;
+	}
+/* tables still need cellspacing="0" in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+	}
+caption, th, td {
+	font-weight: normal;
+	text-align: left;
+	}
+/* remove possible quote marks (") from <q> & <blockquote> */
+blockquote:before, blockquote:after, q:before, q:after {
+	content: "";
+	}
+blockquote, q {
+	quotes: "" "";
+	}
 
+  *{
+      max-width: 100%;
+    box-sizing:border-box;
+               
+  }
 
   body{
-      border: 1px solid black;
-      background-color: blue;
+        background-image: url('/Pics/umberto-FewHpO4VC9Y-unsplash.jpg');    
+    background-size: 100vh;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-color:rgba(19, 19, 199, 0.918);
+    background-image: linear-gradient(50%);      
   }
-h2{
-    color: red;
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    background-color:rgba(19, 19, 199, 0.699) ;
 }
+.headername{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: teal;
+    font-size: 20px;
+    width: 20%;
+}
+.nav nav{
+    display: flex;
+    justify-content: flex-end;    
+}
+a{
+    text-decoration: none;
+    margin:3px 6px;
+    padding:5px 10px;
+    background-color: blue;
+    color: whitesmoke;
+    border-radius: 10px; 
+    transition:2s  
+}
+a:hover{
+    background-color:#000;
+  color:#fff;
+}
+
+.top p{
+    display: flex;
+    width: 75%;
+    height: 30vh;
+    margin:15px auto;
+    background-image: url(/Pics/alexandru-bogdan-ghita-eM6WUs4nKMY-unsplash.jpg);
+    background-position: center;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    color: rgb(10, 56, 184);
+    font-size: 80px;
+    font-family: cursive;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 4%;
+}
+
+
+.box{
+    width:100%;
+    height:30vh;
+    display: flex;
+    color: whitesmoke;
+    
+    
+}
+
+.box h2{
+    width: 100%;
+    text-align: center;
+    ;
+    
+    
+}
+
+.area1{
+    width: 27%;
+    margin: 2%;
+    background-image: url(/Pics/chris-ried-ieic5Tq8YMk-unsplash.jpg); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 2s;
+}
+.area1:hover{
+    transform: scale(2, 2); 
+}
+
+.area2{
+    width: 27%;
+    background-image: url(/Pics/nasa-Q1p7bh3SHj8-unsplash.jpg); 
+    background-size: contain; 
+    margin: 2%;
+    background-repeat: no-repeat;
+    background-position: center;  
+    transition: 2s;
+}
+.area2:hover{
+    transform: scale(2, 2); 
+}
+
+.area3{
+    width: 27%;
+    background-image: url(/Pics/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg);
+    background-size: contain; 
+    margin: 2%;
+    background-repeat: no-repeat;
+    background-position: center;   
+    transition: 2s;
+}
+.area3:hover{
+    transform: scale(2, 2); 
+}
+
+.area4{
+    width: 27%;
+    background-image: url(/Pics/goran-ivos-iacpoKgpBAM-unsplash.jpg); 
+    background-size: contain; 
+    margin: 2%;
+    background-repeat: no-repeat;
+    background-position: center;   
+    transition: 2s;
+}
+.area4:hover{
+    transform: scale(2, 2); 
+}
+
+.area5{
+    width: 27%;
+    background-image: url(/Pics/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+    background-size: contain; 
+    margin: 2%;
+    background-repeat: no-repeat;
+    background-position: center;    
+    transition: 2s;
+}
+.area5:hover{
+    transform: scale(2, 2); 
+}
+
+.area6{
+    width: 27%;
+    background-image: url(/Pics/markus-spiske-Skf7HxARcoc-unsplash.jpg);
+    background-size: contain; 
+    margin: 2%;
+    background-repeat: no-repeat;
+    background-position: center;   
+    transition: 2s;
+}
+.area6:hover{
+    transform: scale(2, 2); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 4.5rem;
+    
+    background-color:rgba(19, 19, 199, 0.699) ;
+  }
+footer nav{
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer nav a{
+    padding:6px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}   
