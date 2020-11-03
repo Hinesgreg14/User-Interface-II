@@ -43,7 +43,7 @@ blockquote, q {
     @font-face{
         font-family: jungle;
         src: url(/jungle.ttf);}
-  *{
+  *{ 
       max-width: 100%;
     box-sizing:border-box;
     
@@ -161,7 +161,7 @@ nav a:hover{
     transition: 1.5s;
 }
 .boxes div:hover{
-    transform: scale(1.5, 1.5);
+    transform: scale(1.2, 1.2);
 }
 
 
@@ -193,14 +193,11 @@ nav a:hover{
 
 footer {
     display: flex;
-    position: relative;
-    bottom: 0;
     width: 100%;
-    height: 100px;
-    padding: 20px;
+    height: 10vh;
     justify-content: space-evenly;
     background-color:rgba(19, 19, 199, 0.699) ;
-    margin-top: 20px;
+    margin-top: 80px;
   }
 footer a{text-decoration: none;
     
@@ -238,7 +235,147 @@ footer a{text-decoration: none;
     color:#fff;
 }
 
+/***********MEDIA QUERIE START*********/
+@media(max-width:800px){
 
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 180px;
+        margin-bottom: 10px;
+    }
+    .headername{
+        height: 100%;
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;    
+    }
+    .top{
+        display: flex;
+        width: 100%;
+        height:50vh;
+        background-size: cover ;
+        align-items: center;
+        margin: 20px auto;
+    }
+    .name{
+        font-size: 50px;
+        
+    }
+    
+    .bottom{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        padding: 2%;
+        width: 100%;
+        height:20%;
+        margin-bottom: 20px;
+       
+    }
+    
+    
+    .boxes{
+        display: flex;
+        flex-direction: column;flex-wrap: wrap;
+       justify-content: space-evenly;
+        width: 100%;
+        height:50%;
+        color: whitesmoke;
+        text-align: center;
+         margin-bottom:50px;
+    }
+    .boxes div{
+        width: 45%; 
+        height: 150px;
+        margin: 30px auto;
+        border-radius: 8px;
+        border: 2px solid darkturquoise;
+        background-position: center;
+        background-size: cover;
+        align-items: center;
+        transition: 1.5s;
+    }    
+    .area1{
+        background: url(/Pics/chris-ried-ieic5Tq8YMk-unsplash.jpg)no-repeat;    
+    }
+    .area2{
+        background: url(/Pics/nasa-Q1p7bh3SHj8-unsplash.jpg)no-repeat; 
+    }
+    .area3{
+        background: url(/Pics/farzad-nazifi-p-xSl33Wxyc-unsplash.jpg);
+    }
+    .area4{
+        background: url(/Pics/goran-ivos-iacpoKgpBAM-unsplash.jpg);
+    }
+    .area5{
+        background: url(/Pics/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+    }
+    .area6{
+        background: url(/Pics/markus-spiske-Skf7HxARcoc-unsplash.jpg);
+    }
+    .boxes div div{
+        height: 30px;
+        margin-top: 20px;
+        position: relative;
+        top: 90%;
+        padding-top: 5px;
+    }
+    
+    
+    
+    footer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 30vh;
+        justify-content: space-evenly;
+        background-color:rgba(19, 19, 199, 0.699) ;
+        position: relative;
+        top: 100%
+      }
+    footer a{text-decoration: none;
+        
+    }
+    .contact{
+        display: flex;
+        align-items: center;
+    }
+    
+    .contact a{
+        font-size: 20px;
+        background-color: darkturquoise;
+        color: blue;
+        border-radius: 10px; 
+        transition:2s;
+        padding: 5px;
+        
+    }
+    .contact a:hover{
+        background-color:#000;
+      color:#fff;
+    }
+    .social{
+        display: flex;
+        align-items: center;
+    }
+    .social a{
+        font-size: 2rem;
+        padding: 8px;
+        color: cornsilk;
+        transition:1s
+    }
+    .social a:hover{
+        background-color:#000;
+        color:#fff;
+    }
+       
+}/*****Closing Media Bracket******/
 
 
 
