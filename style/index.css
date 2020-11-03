@@ -43,7 +43,7 @@ blockquote, q {
     @font-face{
         font-family: jungle;
         src: url(/jungle.ttf);}
-  *{border: 1px solid black;
+  *{
       max-width: 100%;
     box-sizing:border-box;
     
